@@ -96,9 +96,9 @@
         NSString *time = [formatter stringFromDate:lastUpdatedTime];
 
         // 3.显示日期
-        self.lastUpdatedTimeLabel.text = [NSString stringWithFormat:@"Last Update：%@", time];
+        // self.lastUpdatedTimeLabel.text = [NSString stringWithFormat:@"Last Update：%@", time];
     } else {
-        self.lastUpdatedTimeLabel.text = @"Last Update：No Record";
+        // self.lastUpdatedTimeLabel.text = @"Last Update：No Record";
     }
 }
 
